@@ -1,7 +1,8 @@
 
-    <style type="text/css">
       body{
-        padding-top: 70px;
+        padding-top: 40px;
+        font-family: "Questrial", Helvetica, Arial, sans-serif;
+          font-size: 14px;
       }
       .jumbotron{
         background-color: #ffffff;
@@ -16,24 +17,32 @@
       }
 
       .navbar-default{
-        background-color: white;
+          background-color:white;
+          box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
+
       }
+
+
+
       .services{
         background-color: rgb(252, 252, 252);
+          padding-bottom: 40px;
       }
 
       .thumbnailDiv{
         text-align: center;
-                margin-top: 40px;
+          padding-top: 40px;
+
       }
       .serviceThumbnail{
+
          display: inline-block;
-    *display:inline; /* ie7 fix */
-    float: none; /* this is the part that makes it work */
+        *display:inline;
+         float: none;
       }
 
       .portfolioPhotos{
-        height: 250px;
+        height: 222px;
       }
       .portfolioIMGsize{
         width: 400px;
@@ -48,18 +57,16 @@
       }
       .headersss{
         text-align: center;
-        font-size: 23px;
+        font-size: 25px;
        
       }
 
       h1{
-        font-size: 23px;
-        font-weight: bold;
+        font-size: 25px;
       }
 
       h3{
-        font-size: 18px;
-        font-weight: bold;
+        font-size: 20px;
       }
 
 
@@ -67,29 +74,45 @@
         text-align: center;
       }
 
-      .profIMG{
 
-      }
 
       #presentation{
         font-size: 18px;
-        margin-top: 40px;
+          padding-top: 35px;
       }
 
       .achivements{
-        margin-top: 20px;
-        height: 250px;
+        height: 242px;
       }
 
       a:link{
         text-decoration: none;
-
+        color: #2aabd2;
       }
 
       #socialMedia{
         text-align: center;
+          font-size: 18px;
       }
 
 
+      .socialIcons{
+          border: 2px solid #54b4ff;
+          height: 57px;
+          width: 57px;
+          color: #54b4ff;
+          padding-top: 9px;
+      }
 
-    </style>
+
+      .serviceThumbnail a{
+          color: #333333;
+
+      }
+
+      .btn-primary {
+          width: 140px;
+          background-color: #54b4ff;
+          border: 1px solid  #54b4ff;;
+      }
+
