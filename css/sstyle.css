@@ -26,21 +26,23 @@
 
       .services{
         background-color: rgb(252, 252, 252);
-          height: 350px;
+          padding-bottom: 40px;
       }
 
       .thumbnailDiv{
         text-align: center;
-                margin-top: 40px;
+          padding-top: 40px;
+
       }
       .serviceThumbnail{
+
          display: inline-block;
-    *display:inline; /* ie7 fix */
-    float: none; /* this is the part that makes it work */
+        *display:inline;
+         float: none;
       }
 
       .portfolioPhotos{
-        height: 250px;
+        height: 222px;
       }
       .portfolioIMGsize{
         width: 400px;
@@ -72,26 +74,45 @@
         text-align: center;
       }
 
-      .profIMG{
 
-      }
 
       #presentation{
         font-size: 18px;
-        margin-top: 40px;
+          padding-top: 35px;
       }
 
       .achivements{
-        height: 250px;
+        height: 242px;
       }
 
       a:link{
         text-decoration: none;
-
+        color: #2aabd2;
       }
 
       #socialMedia{
         text-align: center;
+          font-size: 18px;
       }
 
+
+      .socialIcons{
+          border: 2px solid #54b4ff;
+          height: 57px;
+          width: 57px;
+          color: #54b4ff;
+          padding-top: 9px;
+      }
+
+
+      .serviceThumbnail a{
+          color: #333333;
+
+      }
+
+      .btn-primary {
+          width: 140px;
+          background-color: #54b4ff;
+          border: 1px solid  #54b4ff;;
+      }
 
