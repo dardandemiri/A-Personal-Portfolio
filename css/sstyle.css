@@ -33,7 +33,7 @@
 
       .thumbnailDiv{
         text-align: center;
-          padding-top: 40px;
+
 
       }
       .serviceThumbnail{
@@ -45,10 +45,13 @@
 
       .portfolioPhotos{
         height: 222px;
+          margin-bottom: 50px;
       }
       .portfolioIMGsize{
         width: 400px;
         height: 170px;
+
+          padding-bottom: 50px;
 
       }
 
@@ -75,6 +78,7 @@
 
       .portfolioPhotos h4{
         text-align: center;
+
       }
 
 
@@ -129,5 +133,9 @@
       .thankYouText{
           margin-top: 25px;
 
+      }
+
+      .hideme{
+          display: none;
       }
 
