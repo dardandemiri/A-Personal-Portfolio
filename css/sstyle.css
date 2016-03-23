@@ -1,118 +1,134 @@
 
-      body{
-        padding-top: 40px;
-        font-family: "Questrial", Helvetica, Arial, sans-serif;
-          font-size: 14px;
-      }
-      .jumbotron{
-        background-color: #ffffff;
-      }
+body {
+    padding-top: 40px;
+    font-family: "Questrial", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
 
-      .moveRight{
-        
-      }
+.jumbotron {
+    background-color: #ffffff;
+}
 
-      .jumbotron{
-        margin-top: -35px;
-      }
+.moveRight {
 
-      .navbar-default{
-          background-color:white;
-          box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
+}
 
-      }
+.jumbotron {
+    margin-top: -35px;
+}
 
+.navbar-default {
+    background-color: white;
+    box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 
+}
 
-      .services{
-        background-color: rgb(252, 252, 252);
-          padding-bottom: 40px;
-      }
+.services {
+    background-color: rgb(252, 252, 252);
+    padding-bottom: 40px;
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+}
 
-      .thumbnailDiv{
-        text-align: center;
-          padding-top: 40px;
+.thumbnailDiv {
+    text-align: center;
 
-      }
-      .serviceThumbnail{
+}
 
-         display: inline-block;
-        *display:inline;
-         float: none;
-      }
+.serviceThumbnail {
 
-      .portfolioPhotos{
-        height: 222px;
-      }
-      .portfolioIMGsize{
-        width: 400px;
-        height: 170px;
-      }
+    display: inline-block;
+    *display: inline;
+    float: none;
+}
 
+.portfolioPhotos {
+    height: 222px;
+    margin-bottom: 50px;
+}
 
+.portfolioIMGsize {
+    width: 400px;
+    height: 170px;
 
-      .headers{
-        text-align: center;
-        margin-bottom: 45px;
-      }
-      .headersss{
-        text-align: center;
-        font-size: 25px;
-       
-      }
+    padding-bottom: 50px;
 
-      h1{
-        font-size: 25px;
-      }
+}
 
-      h3{
-        font-size: 20px;
-      }
+.headers {
+    text-align: center;
+    margin-bottom: 45px;
+}
 
+.headersss {
+    text-align: center;
+    font-size: 25px;
 
-      .portfolioPhotos h4{
-        text-align: center;
-      }
+}
 
+h1 {
+    font-size: 25px;
+}
 
+h3 {
+    font-size: 20px;
+}
 
-      #presentation{
-        font-size: 18px;
-          padding-top: 35px;
-      }
+.portfolioPhotos h4 {
+    text-align: center;
 
-      .achivements{
-        height: 242px;
-      }
+}
 
-      a:link{
-        text-decoration: none;
-        color: #2aabd2;
-      }
+#presentation {
+    font-size: 18px;
+    padding-top: 35px;
+}
 
-      #socialMedia{
-        text-align: center;
-          font-size: 18px;
-      }
+.achivements {
+    height: 242px;
+}
 
+a:link {
+    text-decoration: none;
+    color: #2aabd2;
+}
 
-      .socialIcons{
-          border: 2px solid #54b4ff;
-          height: 57px;
-          width: 57px;
-          color: #54b4ff;
-          padding-top: 9px;
-      }
+#socialMedia {
+    text-align: center;
+    font-size: 18px;
+}
 
+.socialIcons {
+    border: 2px solid #54b4ff;
+    height: 57px;
+    width: 57px;
+    color: #54b4ff;
+    padding-top: 9px;
+}
 
-      .serviceThumbnail a{
-          color: #333333;
+.serviceThumbnail a {
+    color: #333333;
 
-      }
+}
 
-      .btn-primary {
-          width: 140px;
-          background-color: #54b4ff;
-          border: 1px solid  #54b4ff;;
-      }
+.btn-primary {
+    width: 90px;
+    background-color: #54b4ff;
+    border: 1px solid #54b4ff;;
+}
+
+.neMesDyav {
+    margin-top: 45px;
+    border-bottom: 1px solid #f1f1f1;
+
+}
+
+.thankYouText {
+    margin-top: 25px;
+
+}
+
+.hideme {
+    display: none;
+}
 
