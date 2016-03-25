@@ -9,9 +9,6 @@ body {
     background-color: #ffffff;
 }
 
-.moveRight {
-
-}
 
 .jumbotron {
     margin-top: -35px;
@@ -23,47 +20,36 @@ body {
 
 }
 
-.services {
+.servicesClass {
     background-color: rgb(252, 252, 252);
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #f1f1f1;
     border-top: 1px solid #f1f1f1;
 }
 
-.thumbnailDiv {
-    text-align: center;
-
-}
-
-.serviceThumbnail {
-
-    display: inline-block;
-    *display: inline;
-    float: none;
-}
-
-.portfolioPhotos {
+.portfolioThumbnail {
     height: 222px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
-.portfolioIMGsize {
+
+.portfolioPhotosize {
     width: 400px;
     height: 170px;
-
-    padding-bottom: 50px;
-
 }
+
+
 
 .headers {
     text-align: center;
     margin-bottom: 45px;
 }
 
-.headersss {
+#headerService {
     text-align: center;
     font-size: 25px;
-
+    margin-bottom: 35px;
 }
 
 h1 {
@@ -74,10 +60,7 @@ h3 {
     font-size: 20px;
 }
 
-.portfolioPhotos h4 {
-    text-align: center;
 
-}
 
 #presentation {
     font-size: 18px;
@@ -85,12 +68,19 @@ h3 {
 }
 
 .achivements {
-    height: 242px;
+    height: 222px;
+    padding-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 a:link {
     text-decoration: none;
     color: #2aabd2;
+}
+
+#contactsDiv{
+    margin-bottom: 50px;
 }
 
 #socialMedia {
@@ -106,10 +96,24 @@ a:link {
     padding-top: 9px;
 }
 
-.serviceThumbnail a {
-    color: #333333;
 
+.achivementThumbnailClass a{
+    color: #333333;
+    text-align: center;
+    display: inline-block;
+    *display: inline;
+    float: none;
 }
+
+.serviceThumbnail{
+    margin-bottom: 36px;
+    text-align: center;
+    display: inline-block;
+    *display: inline;
+    float: none;
+}
+
+
 
 .btn-primary {
     width: 90px;
